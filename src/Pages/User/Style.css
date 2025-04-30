@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#helloworld{
+    background: red;
+}
+
+#navbar{
+    color: rgb(0, 0, 0);
+}
+
+
+#booknow{
+    color: white;
+    background-color: #262262;
+    border: none;
+    border-radius: 25px;
+}
+#booknowarrow{
+    color: white;
+    background-color: #262262;
+    border: none;
+    border-radius: 25px;
+}
+
+
+/* trail */
+
+#letsgo {
+    background-color: #f7f7f7; /* Light background color */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#letsgo h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.package-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    overflow: hidden;
+    position: relative;
+}
+
+.package-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+
+.package-title {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for text */
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+
+/* Explanation */
+
+
+#explanation{
+    
+    background-color: #f7f7f7; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.explanation-img{
+    border-radius: 10px;
+
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+
+/* Styling for h1 */
+.explanation-h1 {
+    font-family: 'Playfair Display', serif; 
+    line-height: 1.2;
+}
+
+/* Styling for h5 */
+.explanation-h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #616161; 
+    text-align: start; 
+}
+
+.explanation-btn{
+
+    color: rgb(0, 0, 0);
+    background-color: #fbaf3f;
+    border: none;
+    border-radius: 25px;
+
+}
+.explanation-btn:hover{
+    color: white;
+    background-color: #262262;
+}
+
+.reviewborder{
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.reviewimg{
+    transition: all 0.3s ease;
+}
+
+.placeholder-text::placeholder {
+    color: #E0E0E0;
+    outline: none;
+    box-shadow: none;
+}
+.placeholder-text {
+    outline: none;
+    font-weight: bold;
+    box-shadow: none;
+    caret-color: black;
+}
+
+.login-btn{
+
+    color: rgb(0, 0, 0);
+    background-color: #fbaf3f;
+    border: none;
+    border-radius: 25px;
+
+}
+.login-btn:hover{
+    color: white;
+    background-color: #262262;
+}
+.opp-btn:hover{
+
+    color: rgb(0, 0, 0);
+    background-color: #fbaf3f;
+    
+
+}
+.opp-btn{
+    color: white;
+    background-color: #262262;
+    border: none;
+    border-radius: 25px;
+}
