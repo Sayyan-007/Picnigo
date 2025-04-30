@@ -1,5 +1,5 @@
 import './Style.css'
-export const Hero = () => {
+const Hero = () => {
     return (
         <div>
             <div  style={{backgroundImage:'url(bgimg.avif)'}} className=' mw-100 '>
@@ -29,4 +29,4 @@ export const Hero = () => {
         </div>
     )
 }
-// export default Hero
+export default Hero
