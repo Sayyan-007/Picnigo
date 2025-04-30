@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
-import HeroCamp from "./Hero";
+import HeroCamp from "./hero";
 import Footter from "../Footter";
 import { useEffect, useState } from "react";
 import { Axios } from "../../../axios";
