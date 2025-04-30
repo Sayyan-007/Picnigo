@@ -5,8 +5,7 @@ import Cards from "../Pages/User/Cards"
 import Reviews from "../Pages/User/Reviews"
 import ContactUs from "../Pages/User/ContactUs"
 import Footter from "../Pages/User/Footter"
-// import { Hero } from "../Pages/User/hero"
-import Hero from '../Pages/User/hero';
+import Hero from '../Pages/User/Hero';
 
 const UserHomePage=()=>{
 
