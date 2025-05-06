@@ -3,7 +3,7 @@ import { Axios } from "../../axios";
 import toast from "react-hot-toast";
 import NavbarAdmin from "./NavbarAdmin";
 import Slidebar from "./Slidebar";
-import "./AdminCss.css";
+import "./AdminCSS.css";
 import { Bar } from "react-chartjs-2";
 
 const Userdata = () => {
