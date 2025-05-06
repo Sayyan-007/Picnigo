@@ -3,7 +3,8 @@
   import { Button, Offcanvas } from "react-bootstrap";
   import { FaBars, FaCampground,FaCog, FaHome, FaSuitcaseRolling, FaUser, FaUserTie } from "react-icons/fa";
   import {  } from "react-icons/md";
-  import "./AdminCss.css";
+  import "./AdminCSS.css";
+
 
   function Slidebar() {
     const [show, setShow] = useState(false);

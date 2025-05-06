@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./AdminCss.css";
+import "./AdminCSS.css";
 import Slidebar from "./Slidebar";
 import NavbarAdmin from "./NavbarAdmin";
 import { Axios } from "../../axios";

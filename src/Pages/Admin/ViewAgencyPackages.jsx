@@ -4,7 +4,8 @@ import { useParams } from "react-router-dom"
 import toast from "react-hot-toast"
 import Slidebar from "./Slidebar"
 import NavbarAdmin from "./NavbarAdmin"
-import "./AdminCss.css";
+import "./AdminCSS.css";
+
 
 
 const ViewAgencyPackages = () => {
