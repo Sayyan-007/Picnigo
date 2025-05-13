@@ -14,7 +14,7 @@ const TravelPackage = () => {
                             <Link to={'solo'}><button className="explanation-btn  px-4 py-2 fw-bold">View Packages</button></Link>
                         </div>
                         <div className="rounded-3 col-lg-6 mw-100 d-flex justify-content-center mt-4 mt-lg-0 ">
-                            <img src="solo.jpg" className='rounded-3 shadow-lg mw-100' alt="img required" />
+                            <img src={`https://i.ibb.co/BKK80Jyk/solo.jpg`} className='rounded-3 shadow-lg mw-100' alt="img required" />
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const TravelPackage = () => {
                 <div className="container">
                     <div className="row align-items-center p-5">
                         <div className="rounded-3 col-lg-6 mw-100 d-flex justify-content-center">
-                            <img src="couple.jpg" className='rounded-3 mw-100' alt="img required" />
+                            <img src={`https://i.ibb.co/nsYwB90w/couple.jpg`} className='rounded-3 mw-100' alt="img required" />
                         </div>
                         <div className="col-lg-6  mt-4 mt-lg-0 ">
                             <h1 className='explanation-h1 fw-bold'>Couple Packages</h1>
@@ -44,7 +44,7 @@ const TravelPackage = () => {
                             <Link to={'group'}><button className="explanation-btn  px-4 py-2 fw-bold">View Packages</button></Link>
                         </div>
                         <div className="rounded-3 col-lg-6 mw-100 d-flex justify-content-center  mt-4 mt-lg-0 ">
-                            <img src="grooup.jpg" className='rounded-3 shadow-lg mw-100' alt="img required" />
+                            <img src={`https://i.ibb.co/21sgNh1j/grooup.jpg`} className='rounded-3 shadow-lg mw-100' alt="img required" />
                         </div>
                     </div>
                 </div>

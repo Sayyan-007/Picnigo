@@ -9,7 +9,7 @@ const Content = () => {
             <div className="container">
                 <div className="row align-items-center my-5">
                     <div className="col-lg-6 explanation-card">
-                        <img src="travelpackage01.webp" style={{ width: "100%", height: "350px" }} className="explanation-img mw-100" alt="" />
+                        <img src={`https://i.ibb.co/QF2kYBtw/travelpackage01.webp`} style={{ width: "100%", height: "350px" }} className="explanation-img mw-100" alt="" />
                     </div>
                     <div className="col-lg-6 align-items-end">
                         <h1 className="explanation-h1 pb-3">"The World is Full of Wonders, Let’s Discover Them Together!"</h1>
@@ -27,14 +27,14 @@ const Content = () => {
                         <Link to={`hotelpackage`}><button className="explanation-btn  px-4 py-2 fw-bold">View Hotels</button></Link>
                     </div>
                     <div className="col-lg-6 explanation-card mt-3">
-                        <img src="hotelbooking01.jpeg" style={{ width: "100%", height: "350px" }} className="explanation-img mw-100" alt="" />
+                        <img src={`https://i.ibb.co/ycqMHR5p/91831199.webp`} style={{ width: "100%", height: "350px" }} className="explanation-img mw-100" alt="" />
                     </div>
                 </div>
 
 
                 <div className="row align-items-center my-4" style={{ backgroundImage: 'url(star2.svg)', backgroundSize: '65px', backgroundPosition: 'right', backgroundRepeat: 'no-repeat', padding: '50px 0', }}>
                     <div className="col-lg-6 explanation-card">
-                        <img src="camp01.jpeg" style={{ width: "100%", height: "425px" }} className="explanation-img mw-100" alt="" />
+                        <img src={`https://i.ibb.co/5gwT4SxC/camp01.jpg`} style={{ width: "100%", height: "425px" }} className="explanation-img mw-100" alt="" />
                     </div>
                     <div className="col-lg-6 align-items-end">
                         <h1 className="explanation-h1 pb-3">"The World is Full of Wonders, Let’s Discover Them Together!"</h1>

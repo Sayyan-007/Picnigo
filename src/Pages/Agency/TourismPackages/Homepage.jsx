@@ -72,7 +72,7 @@ const Homepage = () => {
                         }
                     </div>
                     <div className="col-lg-6">
-                        <img src="/heroagency.jpg" className="w-100 rounded-3" alt="" />
+                        <img src={`https://i.ibb.co/x8HfkMTQ/heroagency.jpg`} className="w-100 rounded-3" alt="" />
                     </div>
 
                 </div>

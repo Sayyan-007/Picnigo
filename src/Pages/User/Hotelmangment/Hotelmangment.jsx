@@ -14,7 +14,7 @@ const Hotelmangment = () => {
                                 <Link to={'rooms'}><button className="explanation-btn  px-4 py-2 fw-bold">View Packages</button></Link>
                             </div>
                             <div className="col-lg-6  d-flex justify-content-center">
-                                <img src="roooms.jpg" className="rounded-3 mw-100" alt="img required" />
+                                <img src={`https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`} className="rounded-3 mw-100" alt="img required" />
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const Hotelmangment = () => {
                     <div className="container">
                         <div className="row align-items-center p-5">
                             <div className="col-lg-6 d-flex justify-content-center">
-                                <img src="resortss.jpg" alt="img required" className="rounded-3 mw-100"/>
+                                <img src={`https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`} alt="img required" className="rounded-3 mw-100"/>
                             </div>
                             <div className="col-lg-6">
                                 <h1 className='explanation-h1 fw-bold'>Resort</h1>
@@ -44,7 +44,7 @@ const Hotelmangment = () => {
                                 <Link to={'dormitory'}><button className="explanation-btn  px-4 py-2 fw-bold">View Packages</button></Link>
                             </div>
                             <div className="col-lg-6  d-flex justify-content-center">
-                                <img src="dormitory rooms.jpg" alt="img required" className="rounded-3 mw-100"/>
+                                <img src={`https://images.pexels.com/photos/5137980/pexels-photo-5137980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`} alt="img required" className="rounded-3 mw-100"/>
                             </div>
                         </div>
                     </div>

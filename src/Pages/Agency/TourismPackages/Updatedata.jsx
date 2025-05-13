@@ -50,16 +50,18 @@ const UpdateAgency = () => {
 
 
     return(
-        <div className="d-flex flex-column vh-100 justify-content-center align-items-center">
+        <div className="vh-100 d-flex justify-content-center align-items-center" style={{ backgroundImage: `url('/world.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div>
-                <form onSubmit={handleUpdate} action="" className="d-flex flex-column gap-3">
-                    <h4>{id}</h4>
-                    {Agency_Name ? <input type="text" value={updateAgency_Name} onChange={event=>setAgency_Name(event.target.value)} placeholder="Agency_Name" className="p-3 fw-bold border border-2 rounded-4" /> : <p>{updateAgency_Name}</p>}
-                    <input type="text" value={updateemail} onChange={event=>setupdateemail(event.target.value)} placeholder="email" className="p-3 fw-bold border border-2 rounded-4" />
-                    <button type="submit" className="btn btn-success w-50">Submit</button>
-                    
-                    <Link to={'/agency'}><a href="">Back</a></Link>
+                <form onSubmit={handleUpdate} action="" className="d-flex flex-column w-100 gap-2 " style={{ color: "#E0E0E0" }}>
+                    <h4>Update Your Agency Profile</h4>
+                    <input type="text" value={updateAgency_Name} onChange={event=>setAgency_Name(event.target.value)} placeholder="Agency_Name" style={{ color: "#E0E0E0", borderColor: "#E0E0E0" }} className="p-2 border border-3 rounded-5 w-100 bg-transparent placeholder-text" />
+                    <input type="text" value={updateemail} onChange={event=>setupdateemail(event.target.value)} placeholder="email" style={{ color: "#E0E0E0", borderColor: "#E0E0E0" }} className="p-2 border border-3 rounded-5 w-100 bg-transparent placeholder-text" />
 
+                    <div className="d-flex gap-2 ">
+                        <button type="submit" className="login-btn w-50 p-2 fw-bold px-3">Submit</button>
+                        <button className='opp-btn fw-bold w-50 p-2 px-3'><Link className='text-decoration-none w-50 text-light' to={'/agency'}><a>Back</a></Link></button>
+                    </div>
+                
                 </form>
             </div>
         </div>

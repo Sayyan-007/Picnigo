@@ -12,7 +12,7 @@ const Camp=()=>{
                             <Link to={'stranger'}><button className="explanation-btn  px-4 py-2 fw-bold">View Packages</button></Link>
                         </div>
                         <div className="col-lg-6  d-flex justify-content-center">
-                            <img src="stangerscamp.jpg" alt="img required"  className="rounded-3 mw-100"/>
+                            <img src={`https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`} alt="img required"  className="rounded-3 mw-100"/>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const Camp=()=>{
                 <div className="container">
                     <div className="row align-items-center p-5">
                         <div className="col-lg-6 d-flex justify-content-center">
-                            <img src="regularcamp.jpg" alt="img required"  className="rounded-3 mw-100"/>
+                            <img src={`https://images.pexels.com/photos/1164572/pexels-photo-1164572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`} alt="img required"  className="rounded-3 mw-100"/>
                         </div>
                         <div className="col-lg-6">
                             <h1 className='explanation-h1 fw-bold'>Regular Camp</h1>
