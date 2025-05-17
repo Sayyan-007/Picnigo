@@ -41,9 +41,9 @@ const Navbar = () => {
                                     Agency
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="packagesDropdown">
-                                    <Link className='text-decoration-none' to={'/agency/login'}><li><a className="dropdown-item">Travel Agency</a></li></Link>
-                                    <Link className='text-decoration-none' to={`/hotelmangment/login`}><li><a className="dropdown-item">Hotel Management</a></li></Link>
-                                    <Link className='text-decoration-none' to={`/camporganization/login`}><li><a className="dropdown-item">Camp</a></li></Link>
+                                    <li><Link className='text-decoration-none' to={'/agency/login'}><li><a className="dropdown-item">Travel Agency</a></li></Link></li> 
+                                    <li><Link className='text-decoration-none' to={`/hotelmangment/login`}><li><a className="dropdown-item">Hotel Management</a></li></Link></li>   
+                                    <li><Link className='text-decoration-none' to={`/camporganization/login`}><li><a className="dropdown-item">Camp</a></li></Link></li>    
                                 </ul>
                             </li>
                             <li className="nav-item">
