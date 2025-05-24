@@ -26,21 +26,15 @@ import Hotelmanagment from '../Pages/Admin/Hotelmanagment'
 import ViewAgencyPackages from '../Pages/Admin/ViewAgencyPackages'
 import ViewMangmentPackages from '../Pages/Admin/ViewMangmentPackages'
 import ViewOrganizationpackages from '../Pages/Admin/ViewOrganization'
-import Solopackage from '../Pages/User/Travelpackage/SoloPackage'
-import CouplePackage from '../Pages/User/Travelpackage/CouplePackage'
-import GroupPackage from '../Pages/User/Travelpackage/GroupPackage'
 import UserHotelMangment from '../Components/UserHotelMangment'
-import Rooms from '../Pages/User/Hotelmangment/rooms'
-import Resort from '../Pages/User/Hotelmangment/resort'
-import Dormitory from '../Pages/User/Hotelmangment/dormitory'
-import Stranger from '../Pages/User/Camp/strangers'
-import Regular from '../Pages/User/Camp/regular'
 import UserCampPackage from '../Components/UserCamp'
 import BookNow from '../Pages/User/BooknowAgency'
 import Success from '../Pages/User/Success'
 import BookNowhotel from '../Pages/User/Booknowhotel'
 import BookNowCamp from '../Pages/User/BooknowCamp'
 import Homepage from '../Pages/Admin/Homepage'
+import AdminLogin from '../Pages/Admin/adminLogin'
+import Feedback from '../Pages/Admin/feedback'
 
 
 
@@ -57,20 +51,12 @@ const Routeway=()=>{
                 <Route path='signup' element={<Signup/>}/>
                 <Route path='travelpackage'>
                     <Route path='' element={<UserTravelPackage/>}/>
-                    <Route path='solo' element={<Solopackage/>}/>
-                    <Route path='couple' element={<CouplePackage/>}/>
-                    <Route path='group' element={<GroupPackage/>}/>
                 </Route>
                 <Route path='hotelpackage'>
                     <Route path='' element={<UserHotelMangment/>}/>
-                    <Route path='rooms' element={<Rooms/>}/>
-                    <Route path='resort' element={<Resort/>}/>
-                    <Route path='dormitory' element={<Dormitory/>}/>
                 </Route>
                 <Route path='camp'>
                     <Route path='' element={<UserCampPackage/>}/>
-                    <Route path='stranger' element={<Stranger/>}/>
-                    <Route path='regular' element={<Regular/>}/>
                 </Route>
                 <Route path='booknowagency/:id' element={<BookNow/>}/>
                 <Route path='booknowhotel/:id' element={<BookNowhotel/>}/>
@@ -143,6 +129,7 @@ const Routeway=()=>{
             <Routes>
                 <Route path='/admin'>
                     <Route path=''  element={<Homepage/>}></Route>
+                    <Route path='adminlogin' element={<AdminLogin/>}></Route>
                     <Route path='user'  element={<Userdata/>}></Route>
                     <Route path='travelagency' >
                         <Route path='' element={<Travalagency/>}></Route>
@@ -156,6 +143,7 @@ const Routeway=()=>{
                         <Route path='' element={<Camporganization/>}></Route>
                         <Route path='viewcamppackage/:id/:name' element={<ViewOrganizationpackages/>}></Route>
                     </Route>
+                    <Route path='feedback' element={<Feedback/>}></Route>
                 </Route>
             </Routes>
 

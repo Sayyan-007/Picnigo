@@ -1,6 +1,6 @@
 const Footter = () => {
     return (
-        <div>
+        <div id="footter">
             <div className="container-fluid" style={{ backgroundColor: "#f7f7f7" }}>
                 <div className="container">
                     <div className="row justify-content-center pt-5">

@@ -6,10 +6,12 @@ import { hotelReducer } from "./hotelSlice";
 import { campReducer } from "./campSlice";
 import { hotelPackageReducer } from "./hotelpackageSlice";
 import { camppackageReducer } from "./camppackageSlice";
+import { adminReducer } from "./adminSlice";
 
 const store = configureStore({
     reducer: {
         user: userReducer,
+        admin: adminReducer,
         agency: agencyReducer,
         tourismPackage: tourismPackageReducer,
         hotel:hotelReducer,

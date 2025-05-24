@@ -158,3 +158,8 @@
     border: none;
     border-radius: 25px;
 }
+
+/* hoverdisplay */
+.tour-card:hover .tour-overlay {
+  display: none;
+}

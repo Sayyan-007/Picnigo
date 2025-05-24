@@ -58,7 +58,7 @@ const Homepage = () => {
     }, [])
 
     return (
-        <div>
+        <div id="home">
             <hr />
             <div className="container-fluid">
                 <div className="row justify-content-center align-items-center">

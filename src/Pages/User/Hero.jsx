@@ -1,7 +1,7 @@
 import './Style.css'
 const Hero = () => {
     return (
-        <div>
+        <div id='home'>
             <div  style={{backgroundImage:'url(bgimg.avif)'}} className=' mw-100 '>
                 <div className="container-fluid">
                     <div className="row align-items-center pt-5">

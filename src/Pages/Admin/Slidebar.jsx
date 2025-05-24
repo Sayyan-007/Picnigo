@@ -1,7 +1,7 @@
   import { useState } from "react";
   import { Link } from "react-router-dom";
   import { Button, Offcanvas } from "react-bootstrap";
-  import { FaBars, FaCampground,FaCog, FaHome, FaSuitcaseRolling, FaUser, FaUserTie } from "react-icons/fa";
+  import { FaBars, FaCampground,FaCommentDots, FaHome, FaSuitcaseRolling, FaUser, FaUserTie } from "react-icons/fa";
   import {  } from "react-icons/md";
   import "./AdminCSS.css";
 
@@ -40,7 +40,7 @@
                     <Link className="nav-link d-flex" to={'/admin/camporganizer'}><FaCampground className="me-2 fs-4" /><h5 className="fw-light">Camp Oraganizers</h5></Link>
                   </li>
                   <li>
-                    <Link className="nav-link d-flex" to={'/admin'}><FaCog className="me-2 fs-4" /><h5 className="fw-light">Settings</h5></Link>
+                    <Link className="nav-link d-flex" to={'/admin/feedback'}><FaCommentDots className="me-2 fs-4" /><h5 className="fw-light">FeedBacks</h5></Link>
                   </li>
                 </ul>
               </Offcanvas.Body>

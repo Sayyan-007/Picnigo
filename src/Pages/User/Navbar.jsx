@@ -3,11 +3,17 @@ import './Style.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { logoutUser } from '../../Redux/userSlice';
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
 
     const Navigate = useNavigate()
     const Dispatch = useDispatch()
+
+    const location = useLocation();
+    const path = location.pathname;
+
+    const isTravelagency = path.startsWith('/travelpackage') || path.startsWith('/hotelpackage') || path.startsWith('/camp')
 
     const {id,fullName,email} = useSelector(store => store.user) 
 
@@ -31,11 +37,11 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto gap-lg-4">
                             <li className="nav-item">
-                                <a className="nav-link active text-dark fw-bolder" href="#">Home</a> 
+                                <a className="nav-link active text-dark fw-bolder" href="/">Home</a> 
                             </li>
-                            <li className="nav-item">
+                            {!isTravelagency && <li className="nav-item">
                                 <a className="nav-link text-dark fw-bolder" href="#explanation">Packages</a>
-                            </li>
+                            </li>}
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle text-dark fw-bolder" href="#" id="packagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Agency
@@ -46,11 +52,11 @@ const Navbar = () => {
                                     <li><Link className='text-decoration-none' to={`/camporganization/login`}><li><a className="dropdown-item">Camp</a></li></Link></li>    
                                 </ul>
                             </li>
-                            <li className="nav-item">
+                            {!isTravelagency && <li className="nav-item">
                                 <a className="nav-link text-dark fw-bolder" href="#">Service</a>
-                            </li>
+                            </li>}
                             <li className="nav-item">
-                                <a className="nav-link text-dark fw-bolder" href="#">About</a>
+                                <a className="nav-link text-dark fw-bolder" href="#footter">About</a>
                             </li>
                         </ul>
                         <ul className='navbar-nav'>
