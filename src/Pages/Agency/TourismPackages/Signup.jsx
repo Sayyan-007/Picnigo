@@ -59,7 +59,7 @@ const AgencySignup=()=>{
                         </div>
                         <div className="d-flex flex-column flex-sm-row gap-3">
                             <input onChange={signup.handleChange} value={signup.values.email} name='email' type="email" placeholder="email" className=" placeholder-text bg-transparent p-2 w-100 border border-3 rounded-5 ps-3 fw-bold"  />
-                            <input onChange={signup.handleChange} value={signup.values.phone_Number} name='phone Number' type="number" placeholder="phone_Number" className=" placeholder-text bg-transparent p-2 w-100 border border-3 rounded-5 ps-3 fw-bold"  />
+                            <input onChange={signup.handleChange} value={signup.values.phone_Number} name='phone_Number' type="number" placeholder="phone Number" className=" placeholder-text bg-transparent p-2 w-100 border border-3 rounded-5 ps-3 fw-bold"  />
                         </div>
                         <div className="d-flex flex-column flex-sm-row gap-3">
                             <input onChange={signup.handleChange} value={signup.values.District} name='District' type="text" placeholder="District"className=" placeholder-text bg-transparent p-2 w-100 border border-3 rounded-5 ps-3 fw-bold"   />
