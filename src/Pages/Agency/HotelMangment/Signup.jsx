@@ -28,7 +28,7 @@ const HotelSignup=()=>{
                 localStorage.setItem("access_token",data.token)
                 Dispatch(createHotel(data.HotelMangmentDatas))
                 toast.success(data.message)
-                Navigate('hotelmangment')
+                Navigate('/hotelmangment')
                 
                 
             } 

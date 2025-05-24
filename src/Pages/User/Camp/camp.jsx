@@ -40,7 +40,7 @@ const Camp = () => {
                         <h1 className='explanation-h1 fw-bold'>Regular Camp</h1>
                         <div className='mt-3 d-flex gap-4 flex-row overflow-scroll webscrollbar'>
 
-                            {data.filter((data) => data.type === "regular" && data.Status === "accept" && data.Disabled === false).map((data) => (
+                            {data.filter((data) => data.type === "Regular_camp" && data.Status === "accept" && data.Disabled === false).map((data) => (
                                 <div key={data._id} className="col-11 col-sm-8 col-md-5 col-lg-3  mb-3 rounded-5 p-3" style={{ color:'#4A3F35',border:"4px solid #EADBD4",fontFamily: "Inter, sans-serif" }}>
                                     <div className="d-flex  text-end align-items-center justify-content-between">
                                         <div >

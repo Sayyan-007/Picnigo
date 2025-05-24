@@ -109,7 +109,7 @@ const Userdata = () => {
                 <div className="col-md-9">
                     <NavbarAdmin />
                     <div className="row justify-content-center align-items-center m-0">
-                        <div className="col-lg-9 mt-3 webscrollbar border p-0" style={{ height: "210px", overflow: "scroll", color: "#E0E0E0" }}>
+                        <div className="col-lg-9 mt-3 webscrollbar border p-0" style={{ maxHeight: "210px", overflow: "scroll", color: "#E0E0E0" }}>
                             <table className=" align-middle text-center w-100" >
                                 <thead style={{ position: "sticky", top: 0, zIndex: 2, backgroundColor: "#29293D" }}>
                                     <tr className="">
